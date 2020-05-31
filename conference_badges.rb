@@ -1,5 +1,5 @@
-def badge_maker(speaker)
-  return "Hello, my name is #{speaker}."
+def badge_maker(speakers)
+  return "Hello, my name is #{speakers}."
 end
 
 speakers = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
@@ -13,7 +13,7 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-   badge_maker(speaker).each {|badge| puts badge}
+   badge_maker(speakers).each {|badge| puts badge}
    assign_rooms(speakers).each {|assignment puts assignment}
 end
   
