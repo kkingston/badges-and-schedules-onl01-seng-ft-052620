@@ -10,7 +10,6 @@ end
 
 def assign_rooms(speakers)
   
-  
   speakers.each_with_index.collect {|name, index| puts "Hello #{name}! You will be assigned to room #{index + 1}!"}
 end
 
