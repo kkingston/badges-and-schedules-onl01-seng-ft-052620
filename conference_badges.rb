@@ -14,7 +14,7 @@ end
 
 def printer(speakers)
    badge_maker(speakers).each {|badge| puts badge}
-   assign_rooms(speakers).each {|assignment puts assignment}
+   assign_rooms(speakers).each {|assignment| puts assignment}
 end
   
 
